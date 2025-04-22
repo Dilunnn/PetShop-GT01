@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
-    <title>amiguinhos adoção</title>
+    <link rel="shortcut icon" href="http://127.0.0.1:5500/PetShop-GT01/imagens/amig%C3%A3oz%C3%A3o.png" type="image/x-icon">
+    <title>amiguinhos produtos</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
     <style>
         body{
             background-color: azure;
-            background-image:url(https://adesivo.com.br/cdn/shop/products/papel-de-parede-adesivo-patinhas-109223078-280335_grande.jpg?v=1643339790) ;
             margin: 0px;
         }
         header{
@@ -50,6 +49,17 @@
         }
         .anuncioMaior{
             margin: 5px 20px 0px 20px;
+            border: black solid;
+            border-radius: 6px;
+        }
+        .centro{
+          text-align: center;
+        }
+        .produtos{
+          display: inline-block;
+          background-color: #b2dcae;
+          border: azure 3px solid;
+          margin: 5px;
         }
         .catalogo{
             flex-wrap: wrap;
@@ -65,12 +75,16 @@
         .card {
           margin: 20px;
           background-color: rgb(168, 114, 81);
+          transition: border 0.5s ease;
         }
         .card:hover{
-          border: 3px solid black;
+          border: 4px solid black;
           width: 300px;
         
         }
+        .card-text{
+          text-align: center;
+          }
         footer{
           border: 2px solid black;
           background-color: #b2dcae;
@@ -95,7 +109,7 @@
         <img src="http://127.0.0.1:5500/PetShop-GT01/imagens/amig%C3%A3oz%C3%A3o.png" alt="">
         <input type="search" class="pesquisa" name="pesquisa" placeholder="pesquise aqui🐶">
         <nav class="caminhos">
-            <a href="Home.html">Home</a>
+            <a href="home.html">Home</a>
             <a href="servicos.html">Serviços </a>
             <a href="produtos.html">Produtos </a>
             <a href="adocao.html">Adoção</a>
@@ -104,94 +118,96 @@
     </header>
 
     <main> <section class="anuncioMaior">
-        <img src="https://www.habibs.com.br/storage/news/images/1ac9923bab9ccd0.jpg" alt="anuncio conscientização" width="100%">
+        <img src="imagens/petPascoa.png" alt="anuncio conscientização" width="100%">
     </section>
     
-        
+    <div class="centro">
+        <h1 class="produtos">produtos</h1>
+      </div>
 
 
 <div class="catalogo col-md-12 col-lg-12 col-xl-12 col-xxl-10 ">
     <div class="card" style="width: 18rem;">
-        <img src="https://adotar.com.br/upload/2019-02/animais_imagem426469.png?w=700&format=webp" class="card-img-top" alt="husky siberiano">
+        <img src="https://cobasi.vteximg.com.br/arquivos/ids/939215/racao-golden-formula-caes-adultos-racas-pequenas-frango-arroz-mini-bits-3626279-10-01kg-lado.jpg?v=638127643980130000" class="card-img-top" alt="ração golden">
         <div class="card-body">
-          <p class="card-text">husky siberiano</p>
+          <p class="card-text"> ração golden</p>
         </div>
       </div>
 
       <div class="card" style="width: 18rem;">
-        <img src="https://i0.statig.com.br/bancodeimagens/b7/bi/0z/b7bi0z124tdy2anbihsmz283e.jpg" class="card-img-top" alt="cheetos" >
+        <img src="https://images.petz.com.br/fotos/1708614057884.jpg" class="card-img-top" alt="ração golden especial" >
         <div class="card-body">
-          <p class="card-text">raça cheetos</p>
+          <p class="card-text">ração golden especial</p>
         </div>
       </div>
 
       <div class="card" style="width: 18rem;">
-        <img src="https://adotar.com.br/upload/2024-03/animais_imagem1102473.jpg" class="card-img-top" alt="golden">
+        <img src="https://hubii.vtexassets.com/arquivos/ids/184235/7896029065440_00.jpg?v=638600356418130000" class="card-img-top" alt="ração pedgreee">
         <div class="card-body">
-          <p class="card-text">raça golden</p>
+          <p class="card-text">ração pedgreee</p>
         </div>
       </div>
 
       <div class="card" style="width: 18rem;">
-        <img src="https://http2.mlstatic.com/D_875791-MLB81811995474_012025-O.jpg" alt="doberman" class="card-img-top" alt="doberman">
+        <img src="https://cobasi.vteximg.com.br/arquivos/ids/1051087-368-368/Whiskas-saber-carne-ao-molho-frente.png?v=638321291172300000" alt="Ração Úmida Whiskas" class="card-img-top">
         <div class="card-body">
-          <p class="card-text">raça doberman</p>
+          <p class="card-text">Ração Úmida Whiskas</p>
         </div>
       </div>
 
       <div class="card" style="width: 18rem;">
-        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-hz6VZBA0-XaUH-ETP23mtaBlulNHfTFYztJjKZPXGLXMO-wMLnZVvOGx7pyA1C39olSKFsKJqiwU9p60sVjyAn90Y1okDjAkUXmTYjEjfaQ2LZlTrRyjrPpHMZ3l3y5wgce5yLugU4vD/s1600/12743680_849943935133224_1202053534862722656_n.jpg" class="card-img-top" alt="gato preto">
+        <img src="https://hubii.vtexassets.com/arquivos/ids/184192/7896029018958_00.jpg?v=638600343213530000" class="card-img-top" alt="Ração Úmida Pedigree">
         <div class="card-body">
-          <p class="card-text">gato preto</p>
+          <p class="card-text">Ração Úmida Pedigree</p>
         </div>
       </div>
 
       <div class="card" style="width: 18rem;">
-        <img src="https://jpimg.com.br/uploads/2023/03/veja-como-as-calopsitas-sao-animais-de-estimacao-interessantes.jpg" class="card-img-top" alt="calopsita">
+        <img src="https://files.terrazoo.com.br/uploads/2023/03/141674.jpg2_.jpg" class="card-img-top" alt="Ração Úmida Friskies">
         <div class="card-body">
-          <p class="card-text">calopsita</p>
+          <p class="card-text">Ração Úmida Friskies</p>
         </div>
       </div>
 
       <div class="card" style="width: 18rem;">
-        <img src="https://www.petz.com.br/blog/wp-content/uploads/2017/06/comprar-papagaio.jpg" class="card-img-top" alt="papagaio">
+        <img src="https://images.petz.com.br/fotos/40013030000915_1730808725103.jpg" class="card-img-top" alt="Alimento Pássaro Reino das Aves">
         <div class="card-body">
-          <p class="card-text">papagaio</p>
+          <p class="card-text">Alimento Pássaro Reino das Aves</p>
         </div>
       </div>
 
       <div class="card" style="width: 18rem;">
-        <img src="https://blog.agrosolo.com.br/wp-content/uploads/2017/08/sphynx1.png" class="card-img-top" alt="sphynx">
+        <img src="https://images.petz.com.br/fotos/1679079232467.jpg" class="card-img-top" alt="Coleira Toh com Tag">
         <div class="card-body">
-          <p class="card-text">gato sphynx</p>
+          <p class="card-text">Coleira Toh com Tag</p>
         </div>
       </div>
 
       <div class="card" style="width: 18rem;">
-        <img src="https://static1.odiariodemogi.net.br/wp-content/uploads/2024/03/vira-lata-caramelo-1-1024x683-1.jpg" class="card-img-top" alt="caramelo">
+        <img src="https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/b1b7847adf3bfa5932b4e6757f1e6b6a.jpg?imageView2/2/w/800/q/70/format/webp" class="card-img-top" alt="Colete e arnês refletivos para cães">
         <div class="card-body">
-          <p class="card-text">raça caramelo</p>
+          <p class="card-text">Colete e arnês refletivos para cães</p>
         </div>
       </div>
 
       <div class="card" style="width: 18rem;">
-        <img src="https://www.mundoecologia.com.br/wp-content/uploads/2020/02/Ra%C3%A7a-Dachshund-6.jpg" class="card-img-top" alt="salsicha">
+        <img src="https://m.media-amazon.com/images/I/619HhG5MELL._AC_SX522_.jpg" class="card-img-top" alt="Fantasia de gato pirata">
         <div class="card-body">
-          <p class="card-text">cachorro salsicha</p>
+          <p class="card-text">Fantasia de gato pirata</p>
         </div>
       </div>
 
       <div class="card" style="width: 18rem;">
-        <img src="https://adotar.com.br/upload/2021-12/animais_imagem786347.jpg?w=700&format=webp" class="card-img-top" alt="gato laranja">
+        <img src="https://festas.site/wp-content/uploads/2017/08/fantasias-para-cachorros23.jpg" class="card-img-top" alt="fantasia mario">
         <div class="card-body">
-          <p class="card-text">gato laranja</p>
+          <p class="card-text">fantasia de mario para cachorros</p>
         </div>
       </div>
 
       <div class="card" style="width: 18rem;">
-        <img src="https://i.pinimg.com/236x/6a/11/b8/6a11b874f3de881c9ee447d86c32d465.jpg" class="card-img-top" alt="oculos">
+        <img src="https://cdn.awsli.com.br/300x300/1012/1012421/produto/270383529/harry-potter-fantasia-para-c-es-zl28fxep9e.jpg" class="card-img-top" alt="oculos">
         <div class="card-body">
-          <p class="card-text">lendario gatinho de oculos</p>
+          <p class="card-text">fantasia harry potter</p>
         </div>
       </div>
 
